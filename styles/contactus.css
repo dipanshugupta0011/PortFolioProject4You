@@ -1,0 +1,131 @@
+form {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+/* Style the form header (the "Sign Up" text) */
+h1 {
+  text-align: center;
+}
+
+/* Style labels and input fields */
+label {
+  margin-bottom: 2px;
+  color: #001102;
+  font-weight: 700;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: yellowgreen;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+  background-color: #27dfed;
+}
+.error-message {
+  color: red;
+}
+.forgot-p {
+  text-align: center;
+}
+/* Add your custom CSS styles here */
+.password-container {
+  position: relative;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/***********************contact us***************************************/
+.container {
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #000801;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#response {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: black;
+}
+.sign-up-container-conatct {
+  background-color: rgb(56, 80, 8);
+  max-height: 100%;
+}
+.sign-up-card-container-contact {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+.sign-up-card-contact {
+  background-image: linear-gradient(rgb(227, 209, 209), yellowgreen);
+  height: 700px;
+  width: 500px;
+  border-radius: 30px;
+  border: 3px solid wheat;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sign-up-heading-contact {
+  font-weight: bolder;
+  margin-top: 20px;
+  color: black;
+}
+.contact-us-lady {
+  height: 600px;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+  }
+}

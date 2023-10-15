@@ -1,0 +1,73 @@
+.sign-up-container {
+  background-color: rgb(56, 80, 8);
+}
+.sign-up-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+.sign-up-card {
+  background-image: linear-gradient(red, yellowgreen);
+  height: 600px;
+  width: 500px;
+  border-radius: 20px;
+  border: 3px solid;
+  margin-top: 50px;
+}
+.sign-up-heading {
+  font-weight: bolder;
+  margin-top: 20px;
+}
+/* Apply basic styling to the form */
+form {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+/* Style the form header (the "Sign Up" text) */
+h1 {
+  text-align: center;
+  color: #20cb31;
+}
+
+/* Style labels and input fields */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #20d632;
+  font-weight: 700;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: yellowgreen;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+  background-color: #27dfed;
+}
+.error-message {
+  color: red;
+}

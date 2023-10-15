@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/login.css" />
+    <link rel="stylesheet" href="styles/slider.css" />
+    <title>LoginPage</title>
+  </head>
+  <body>
+    <div class="sign-up-container">
+      <div class="sign-up-card-container">
+        <div class="sign-up-card shadow-lg">
+          <h1 class="sign-up-heading">Log In</h1>
+          <form id="loginForm">
+            <label for="username">Username:</label><br />
+            <input
+              type="text"
+              id="username"
+              name="username"
+              required
+            /><br /><br />
+            <label for="password">Password:</label><br />
+            <div class="password-container">
+              <input type="password" id="password" name="password" required />
+              <i
+                class="password-toggle-icon fas fa-eye-slash"
+                onclick="togglePassword()"
+              ></i>
+            </div>
+            <br /><br />
+            <input type="submit" value="Login" />
+          </form>
+          <p class="forgot-p">
+            <a href="forget.html" id="forgotPassword">Forgot Password?</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--------------------------SLIDER PART----------------------------------->
+
+    <div class="slider-background">
+      <div class="footer-slider">
+        <div class="slider">
+          <div class="slide">
+            <img
+              src="images/Orange Digital Marketing Agency Facebook Cover.jpg"
+              alt="Image 1"
+              class="img-slider"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="images/Orange Digital Marketing Agency Facebook Cover.jpg"
+              alt="Image 2"
+              class="img-slider"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="images/Orange Digital Marketing Agency Facebook Cover.jpg"
+              alt="Image 3"
+              class="img-slider"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/slider.js"></script>
+    <script src="src/login.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

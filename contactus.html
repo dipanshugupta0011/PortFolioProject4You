@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/contactus.css" />
+
+    <title>LoginPage</title>
+  </head>
+  <body>
+    <div class="sign-up-container-conatct">
+      <div class="sign-up-card-container-contact">
+        <img src="images/contact-lady - Copy.png" class="contact-us-lady" />
+        <div class="sign-up-card-contact shadow-lg">
+          <h1 class="sign-up-heading-contact">Contact Us</h1>
+
+          <form id="contactForm">
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" required /><br /><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required /><br /><br />
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message" rows="4" required></textarea
+            ><br /><br />
+            <input type="submit" value="Submit" />
+          </form>
+          <p id="response"></p>
+        </div>
+      </div>
+    </div>
+    <script src="src/contactus.js"></script>
+    <!-----------------FOOTER PART----------------------------->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

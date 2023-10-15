@@ -1,0 +1,437 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,700;0,800;0,900;1,100;1,400;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.span-mail :hover {
+  color: yellowgreen !important;
+}
+.navbar {
+  background-color: black !important;
+}
+#navItem1 {
+  color: #00fff7;
+  font-family: "Roboto";
+}
+#navItem1:hover {
+  color: yellowgreen;
+}
+
+#navItem2 {
+  color: #00fff7;
+  font-family: "Roboto";
+}
+#navItem2:hover {
+  color: yellowgreen;
+}
+
+#navItem3 {
+  color: #00fff7;
+  font-family: "Roboto";
+}
+#navItem3:hover {
+  color: yellowgreen;
+}
+
+#navItem4 {
+  color: #00fff7;
+  font-family: "Roboto";
+}
+#navItem4:hover {
+  color: yellowgreen;
+}
+
+#navItem5 {
+  color: #00fff7;
+  font-family: "Roboto";
+}
+#navItem5:hover {
+  color: yellowgreen;
+}
+.navbar-toggler {
+  background-color: rgb(145, 255, 0);
+  border-radius: 100px;
+}
+
+/*******************************BANNER SECTION/////////////////////////////*/
+.banner-section {
+  background-color: #242116;
+  height: 80vh;
+  background-size: cover;
+  margin-top: 30px;
+}
+.banner-section h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  font-family: serif;
+  margin-left: 200px;
+  padding-top: 100px;
+  color: #dd4b39;
+}
+.what-portfolio {
+  background-color: #5e490d;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+  align-items: center;
+}
+.banner-second-part-text h1 {
+  color: greenyellow;
+  padding-top: 30px;
+  font-size: 35px;
+  font-weight: bold;
+
+  text-align: center;
+}
+.banner-second-part-text p {
+  color: white;
+  font-size: 25px;
+  padding-top: 20px;
+
+  text-align: center;
+}
+.banner-second-part-text {
+  flex: 1;
+}
+.thumb-img {
+  max-height: 350px;
+  margin-right: 40px;
+}
+/*****************************FOOTER CSS//////////////////////////////////////*/
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+  background: #151414;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: yellowgreen;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 28px;
+}
+.special-iconn {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg {
+  background: #3b5998;
+}
+.twitter-bg {
+  background: #55acee;
+}
+.google-bg {
+  background: #dd4b39;
+}
+.linkdinn-bg {
+  background-color: blue;
+  color: whitesmoke;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  /*content: "";*/
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footer-widget ul li {
+  display: inline-block;
+  /*float: left;*/
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover {
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2e2e2e !important;
+  border: 1px solid #2e2e2e !important;
+  color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #ff5e14;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area {
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a {
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a {
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+/**************WHY PORTFOLIO***************/
+.img-1 {
+  height: 50vh;
+}
+.whyPortfolio-container {
+  background-color: #5e490d;
+}
+.whyPortfolio-container h1 {
+  color: yellowgreen;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.box {
+  background-color: #020000;
+  height: 300px;
+  width: 400px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+.box:hover {
+  z-index: 1;
+  transform: scale(1.08);
+}
+.box h1 {
+  color: yellowgreen;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+.box p {
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.bg-container {
+  background-color: #000000e0;
+}
+.bg-box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.bg-content-container img {
+  height: 300px;
+  width: 400px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.bg-content-container {
+  background-color: whitesmoke;
+  height: 500px;
+  width: 400px;
+  text-align: center;
+  margin: 25px;
+  border-top-left-radius: 50px;
+  border: 2px solid whitesmoke;
+}
+.bg-content-container h1 {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.bg-content-container button {
+  color: yellow;
+  background-color: #9fe12c;
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.bg-content-container:hover {
+  z-index: 1;
+  transform: scale(1.02);
+}
+/**************************MEDIA QUERIES FOR 320PX MOBILE DEVICE*********************************************/
+
+@media only screen and (max-width: 580px) {
+  .thumb-img {
+    height: 200px;
+    width: 200px;
+  }
+  .mobile-device-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 50px;
+  }
+  .home-banner-top-heading {
+    font-size: 20px;
+    text-align: center;
+    margin-right: 80px;
+    gap: 10px;
+  }
+  body {
+    font-size: 14px;
+  }
+  .thumb-paragraph {
+    font-size: 20px !important;
+  }
+  .home-banner-top-heading {
+    font-size: 15px;
+  }
+  /***************about us imgg/////////////*/
+  .about-img-container {
+    height: 20px;
+    width: 300px;
+  }
+  .contact-us-lady {
+    width: 480px;
+  }
+
+  .sign-up-container {
+    background-size: 100vh;
+    max-height: 100%;
+  }
+}
+
+.form-cont {
+  background-color: #aaa1a1;
+  margin-top: 100px;
+  text-align: center;
+  height: 500px;
+  width: 700px;
+}
+.responsive-con-form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+option {
+  color: #5e490d;
+}
+.span-follow-us {
+  color: #00fff7;
+}
+
+/*******************************SLIDER PART**********************************/
+.slider-part-home-page-bg-container {
+  background-color:#060000;
+  height: 60vh;
+ 
+}

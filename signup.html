@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
+    />
+
+    <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/signup.css" />
+
+    <title>SignUp</title>
+  </head>
+  <body>
+    <!------------------NAVBAR-------------------->
+    <!-- Your Navbar HTML -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark p-3 fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <span
+            style="
+              font-size: 28px;
+              font-family: serif;
+              font-weight: bold;
+              color: yellowgreen;
+            "
+            >Make Your</span
+          >
+          <span style="color: aqua; font-size: 20px; font-weight: bolder"
+            >Portfolio</span
+          >
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                id="navItem1"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="whyport.html" id="navItem2"
+                >Why PortFolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html" id="navItem3"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contactus.html" id="navItem4"
+                >Contact Us</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                id="navItem4"
+                >Dropdown</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-but">
+              <a class="btn btn-outline-light m-2" href="signup.html">SignUp</a>
+            </li>
+            <li class="nav-but">
+              <a class="btn btn-outline-light m-2" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!------------------NAVBAR COMPLETE--------------------------->
+    <!---------------sigup page------------------->
+    <!-- Your Sign-up page HTML -->
+
+    <div class="sign-up-container">
+      <div class="sign-up-card-container">
+        <div class="sign-up-card shadow-lg">
+          <h1 class="sign-up-heading">Sign Up</h1>
+          <form id="signupForm" onsubmit="return validateForm()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+
+            <label for="confirm_password">Confirm Password:</label>
+            <input
+              type="password"
+              id="confirm_password"
+              name="confirm_password"
+              required
+            />
+            <div id="error-message" class="error-message"></div>
+            <input type="submit" value="Sign Up" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <!------------------SignUp Complete--------------------------->
+    <!------------------FOOTER-------------------->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="cta-text">
+                  <h4>Find us</h4>
+                  <span
+                    >Sahara Shopping Centre, S296, <br />Faizabad Rd, Shakti
+                    Nagar, Indira Nagar,<br />
+                    Lucknow, Uttar Pradesh 226015, India</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-phone"></i>
+                <div class="cta-text">
+                  <h4>Call us</h4>
+                  <span>8188998899, 8188998866</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="far fa-envelope-open"></i>
+                <div class="cta-text">
+                  <h4>Mail us</h4>
+                  <span class="span-mail"
+                    ><a href="mailto:grplindia2005@gmail.com"
+                      >grplindia2005@gmail.com</a
+                    ></span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 mb-50">
+              <div class="footer-widget">
+                <div class="footer-logo">
+                  <a href="index.html"
+                    ><h1>
+                      <span
+                        style="
+                          font-family: serif;
+                          font-weight: bold;
+                          color: yellowgreen;
+                        "
+                        >MAKE Your</span
+                      ><br />
+                      <span
+                        style="
+                          color: aqua;
+                          font-size: 30px;
+                          font-weight: bolder;
+                        "
+                        >Portfolio</span
+                      >
+                    </h1></a
+                  >
+                </div>
+                <div class="footer-text">
+                  <p></p>
+                </div>
+                <div class="footer-social-icon">
+                  <span class="span-follow-us m-2">Follow us</span>
+                  <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                  <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                  <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                  <a href="#"><i class="fab fa-linkedin linkdinn-bg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Useful Links</h3>
+                </div>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="whyport.html">Why PortFolio</a></li>
+
+                  <li><a href="about.html">about Us</a></li>
+                  <li><a href="contactus.html">Contact us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Subscribe</h3>
+                </div>
+                <div class="footer-text mb-25">
+                  <p>
+                    Don’t miss to subscribe to our new feeds, kindly fill the
+                    form below.
+                  </p>
+                </div>
+                <div class="subscribe-form">
+                  <form action="#">
+                    <input type="text" placeholder="Email Address" />
+                    <button><i class="fab fa-telegram-plane"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+              <div class="copyright-text">
+                <p>
+                  Copyright &copy; 2023, All Right Reserved
+                  <a
+                    href="https://dipanshugupta0011.github.io/MyPortfolio/"
+                    target="_blank"
+                    >Dipanshu Gupta</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="whyport.html">Why PortFolio</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Your Script Tags -->
+    <script src="src/signup.js"></script>
+    <!-- Other script imports -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -421,7 +421,7 @@ option {
     background-color: wheat;
     display: flexbox;
     height: 500px;
-    border-radius: 80px;
+    border-radius: 40px;
     padding: 30px;
   }
   .container-show-your-self-card p {

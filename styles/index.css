@@ -463,10 +463,10 @@ option {
   }
 }
 
-@media screen and (min-width:576px) and (max-width:768px){
+@media screen and (min-width: 576px) and (max-width: 768px) {
   .thumb-img {
     height: 500px;
-    width:500px;
+    width: 500px;
     margin-left: 40px;
   }
   .slider-part-home-page-bg-container {
@@ -474,8 +474,7 @@ option {
     height: 40vh;
   }
 }
-@media screen and (min-width:576px) and (max-width:1440px){
-  
+@media screen and (min-width: 576px) and (max-width: 1441px) {
   .slider-part-home-page-bg-container {
     background-color: #060000;
     height: 40vh;

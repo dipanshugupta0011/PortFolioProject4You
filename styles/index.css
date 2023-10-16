@@ -403,6 +403,13 @@ option {
     color: #dd4b39;
     margin-left: 10px;
   }
+  .banner-second-part-text p {
+    color: white;
+    font-size: 18px;
+    padding-top: 12px;
+
+    text-align: center;
+  }
   .thumb-img {
     display: none;
   }
@@ -418,7 +425,7 @@ option {
     display: block;
   }
   .container-show-your-self-card {
-    background-color: wheat;
+    background-color: rgb(247, 214, 153);
     display: flexbox;
     height: 500px;
     border-radius: 40px;
@@ -466,12 +473,25 @@ option {
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .thumb-img {
     height: 500px;
-    width: 500px;
+    width: 400px;
     margin-left: 40px;
   }
   .slider-part-home-page-bg-container {
     background-color: #060000;
     height: 40vh;
+  }
+  .banner-second-part-text p {
+    color: white;
+    font-size: 19px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .banner-second-part-text h1 {
+    color: greenyellow;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
   }
 }
 @media screen and (min-width: 576px) and (max-width: 1441px) {

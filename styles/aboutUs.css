@@ -10,7 +10,7 @@ body {
   scroll-behavior: smooth;
 }
 .about-us-container {
-  background-color: rgba(216, 138, 29, 0.829);
+  background-color: rgba(159, 100, 18, 0.829);
 }
 .about-heading-container {
   display: flex;

@@ -17,20 +17,20 @@
 .sign-up-card {
   background-color: black;
   height: 600px;
-  width: 500px;
+  width: 600px;
   border-radius: 20px;
   border: 3px solid;
   margin-top: 50px;
 }
 
 .sign-up-heading {
-  font-weight: bolder;
+  font-weight: bold;
   margin-top: 20px;
 }
 
 /* Apply basic styling to the form */
 form {
-  max-width: 300px;
+  max-width: 400px;
   margin: 0 auto;
   padding: 20px;
   background-color: transparent;
@@ -43,12 +43,11 @@ h1 {
   color: #20cb31;
 }
 
-/* Style labels and input fields */
 label {
   display: block;
   margin-bottom: 5px;
   color: #20d632;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 input[type="text"],
@@ -70,6 +69,7 @@ input[type="submit"] {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  
 }
 
 /* Style the submit button on hover */
@@ -93,4 +93,48 @@ input[type="submit"]:hover {
   transform: translateY(-50%);
   cursor: pointer;
   color: #999;
+}
+
+@media screen and (max-width: 574px) {
+  .sign-up-card {
+    background-color: black;
+    height: 500px;
+    width: 300px;
+    border-radius: 20px;
+    border: 3px solid;
+    margin-top: 50px;
+  }
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+
+  width: 100%;
+  padding: 14px 28px;
+  background: #2e2e2e;
+  border: 1px solid #2e2e2e;
+  color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+ 
+  right: 0;
+  background: #ff5e14;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 19%;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
 }

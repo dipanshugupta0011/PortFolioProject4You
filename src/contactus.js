@@ -12,5 +12,5 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   // Redirect to the home page after 2 seconds
   setTimeout(function () {
     window.location.href = "index.html"; // Replace "home.html" with the actual URL of your home page
-  }, 3000); // 2000 milliseconds = 2 seconds
+  }, 4000); // 2000 milliseconds = 2 seconds
 });

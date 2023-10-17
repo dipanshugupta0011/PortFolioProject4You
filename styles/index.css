@@ -427,7 +427,7 @@ option {
   .container-show-your-self-card {
     background-color: rgb(247, 214, 153);
     display: flexbox;
-    height: 500px;
+    height: 700px;
     border-radius: 40px;
     padding: 30px;
   }

@@ -4,18 +4,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css"
     />
-
     <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-    />
+
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/signup.css" />
 
@@ -118,7 +112,13 @@
             <input type="email" id="email" name="email" required />
 
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required />
+            <div class="password-container">
+              <input type="password" id="password" name="password" required />
+              <i
+                class="password-toggle-icon fas fa-eye-slash"
+                onclick="togglePassword()"
+              ></i>
+            </div>
 
             <label for="confirm_password">Confirm Password:</label>
             <input
@@ -133,6 +133,7 @@
         </div>
       </div>
     </div>
+
     <!------------------SignUp Complete--------------------------->
     <!------------------FOOTER-------------------->
     <footer class="footer-section">
@@ -280,7 +281,6 @@
       </div>
     </footer>
 
-    <!-- Your Script Tags -->
     <script src="src/signup.js"></script>
     <!-- Other script imports -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

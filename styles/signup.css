@@ -1,6 +1,11 @@
 .sign-up-container {
   background-color: rgb(56, 80, 8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
+
 .sign-up-card-container {
   display: flex;
   justify-content: center;
@@ -8,18 +13,21 @@
   padding-top: 80px;
   padding-bottom: 30px;
 }
+
 .sign-up-card {
-  background-image: linear-gradient(red, yellowgreen);
+  background-color: black;
   height: 600px;
   width: 500px;
   border-radius: 20px;
   border: 3px solid;
   margin-top: 50px;
 }
+
 .sign-up-heading {
   font-weight: bolder;
   margin-top: 20px;
 }
+
 /* Apply basic styling to the form */
 form {
   max-width: 300px;
@@ -68,6 +76,21 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #27dfed;
 }
+
 .error-message {
   color: red;
+}
+
+/* Add your custom CSS styles here */
+.password-container {
+  position: relative;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #999;
 }
